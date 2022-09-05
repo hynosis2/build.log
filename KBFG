@@ -1,0 +1,79 @@
+-- CMAKE_VERSION               3.18.4
+-- CMAKE_BUILD_TYPE            Release
+-- CMAKE_CONFIGURATION_TYPES   
+-- CMAKE_PREFIX_PATH           /home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux;/home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/debug
+-- CMAKE_TOOLCHAIN_FILE        vcpkg/scripts/buildsystems/vcpkg.cmake
+-- CMAKE_BINARY_DIR            /home/kbmrx/.kbp/hyundaipricer/out-linux
+-- CMAKE_SOURCE_DIR            /home/kbmrx/.kbp/hyundaipricer
+-- CMAKE_CXX_COMPILER          /opt/rh/devtoolset-8/root/usr/bin/c++
+-- CMAKE_CXX_COMPILER_ID       GNU
+-- CMAKE_CXX_COMPILER_VERSION  8.3.1
+-- VCPKG_TARGET_TRIPLET        x64-linux
+-- VCPKG_INSTALLED_DIR         
+-- CMAKE_PROJECT_VERSION       1.2.9
+-- CMAKE_GENERATOR_PLATFORM    
+-- RUNTIME/ARCHIVE/LIBRARY_OUTPUT_DIRECTORY   /home/kbmrx/.kbp/hyundaipricer/bin
+CMake Warning at vcpkg/downloads/tools/cmake-3.18.4-linux/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/FindBoost.cmake:1187 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  vcpkg/downloads/tools/cmake-3.18.4-linux/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/FindBoost.cmake:1311 (_Boost_COMPONENT_DEPENDENCIES)
+  vcpkg/downloads/tools/cmake-3.18.4-linux/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/FindBoost.cmake:1919 (_Boost_MISSING_DEPENDENCIES)
+  vcpkg/scripts/buildsystems/vcpkg.cmake:589 (_find_package)
+  CMakeLists.txt:88 (find_package)
+
+
+-- RapidJSON found. Headers: /home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/share/rapidjson/../../include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kbmrx/.kbp/hyundaipricer/out-linux
+~/.kbp/hyundaipricer/out-linux ~/.kbp/hyundaipricer
+build specific target with KBP
+INFO === build project with KBP
+/home/kbmrx/.kbp/hyundaipricer/vcpkg/downloads/tools/cmake-3.18.4-linux/cmake-3.18.4-Linux-x86_64/bin/cmake -S/home/kbmrx/.kbp/hyundaipricer -B/home/kbmrx/.kbp/hyundaipricer/out-linux --check-build-system CMakeFiles/Makefile.cmake 0
+/opt/rh/devtoolset-8/root/usr/bin/gmake  -f CMakeFiles/Makefile2 KBP
+gmake[1]: 디렉터리 '/home/kbmrx/.kbp/hyundaipricer/out-linux' 들어감
+/home/kbmrx/.kbp/hyundaipricer/vcpkg/downloads/tools/cmake-3.18.4-linux/cmake-3.18.4-Linux-x86_64/bin/cmake -S/home/kbmrx/.kbp/hyundaipricer -B/home/kbmrx/.kbp/hyundaipricer/out-linux --check-build-system CMakeFiles/Makefile.cmake 0
+/home/kbmrx/.kbp/hyundaipricer/vcpkg/downloads/tools/cmake-3.18.4-linux/cmake-3.18.4-Linux-x86_64/bin/cmake -E cmake_progress_start /home/kbmrx/.kbp/hyundaipricer/out-linux/CMakeFiles 33
+/opt/rh/devtoolset-8/root/usr/bin/gmake  -f CMakeFiles/Makefile2 kbp/CMakeFiles/KBP.dir/all
+gmake[2]: 디렉터리 '/home/kbmrx/.kbp/hyundaipricer/out-linux' 들어감
+/opt/rh/devtoolset-8/root/usr/bin/gmake  -f kbp/CMakeFiles/KBP.dir/build.make kbp/CMakeFiles/KBP.dir/depend
+gmake[3]: 디렉터리 '/home/kbmrx/.kbp/hyundaipricer/out-linux' 들어감
+cd /home/kbmrx/.kbp/hyundaipricer/out-linux && /home/kbmrx/.kbp/hyundaipricer/vcpkg/downloads/tools/cmake-3.18.4-linux/cmake-3.18.4-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /home/kbmrx/.kbp/hyundaipricer /home/kbmrx/.kbp/hyundaipricer/kbp /home/kbmrx/.kbp/hyundaipricer/out-linux /home/kbmrx/.kbp/hyundaipricer/out-linux/kbp /home/kbmrx/.kbp/hyundaipricer/out-linux/kbp/CMakeFiles/KBP.dir/DependInfo.cmake --color=
+Dependee "/home/kbmrx/.kbp/hyundaipricer/core/cli/cmain.hpp" is newer than depender "kbp/CMakeFiles/KBP.dir/__/core/cli/cdll.cpp.o".
+Dependee "../core/cli/cmain.hpp" is newer than depender "kbp/CMakeFiles/KBP.dir/__/core/cli/qmr/cliquet.cpp.o".
+Dependee "../core/cli/cmain.hpp" is newer than depender "kbp/CMakeFiles/KBP.dir/__/core/cli/qmr/localvol_ah_eq.cpp.o".
+Dependee "../core/cli/cmain.hpp" is newer than depender "kbp/CMakeFiles/KBP.dir/__/core/cli/qmr/stepdown.cpp.o".
+Dependee "../core/cli/cmain.hpp" is newer than depender "kbp/CMakeFiles/KBP.dir/__/core/cli/qmr/stepdown_superlizard.cpp.o".
+Dependee "../core/cli/cmain.hpp" is newer than depender "kbp/CMakeFiles/KBP.dir/main.cpp.o".
+Clearing dependencies in "/home/kbmrx/.kbp/hyundaipricer/out-linux/kbp/CMakeFiles/KBP.dir/depend.make".
+Scanning dependencies of target KBP
+gmake[3]: 디렉터리 '/home/kbmrx/.kbp/hyundaipricer/out-linux' 나감
+/opt/rh/devtoolset-8/root/usr/bin/gmake  -f kbp/CMakeFiles/KBP.dir/build.make kbp/CMakeFiles/KBP.dir/build
+gmake[3]: 디렉터리 '/home/kbmrx/.kbp/hyundaipricer/out-linux' 들어감
+[  0%] Building CXX object kbp/CMakeFiles/KBP.dir/main.cpp.o
+cd /home/kbmrx/.kbp/hyundaipricer/out-linux/kbp && /opt/rh/devtoolset-8/root/usr/bin/c++ -DADD_ENGINE_TO_KBP -DBOOST_BIND_GLOBAL_PLACEHOLDERS -DBOOST_MATH_DISABLE_FLOAT128 -DFMT_LOCALE -DPRICER_VERSION=\"2022-08-27-1.2.9-065e7e9\" -DRAPIDJSON_HAS_STDSTRING -DUSE_MODERN_PRICING -I/home/kbmrx/.kbp/hyundaipricer -I/home/kbmrx/.kbp/hyundaipricer/core -I/home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/share/rapidjson/../../include -isystem /home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/include -O3 -DNDEBUG -fpermissive -Wall -Wextra -pedantic -pedantic-errors -Werror -Wno-error=unused-parameter -Wno-unused-parameter -Wno-unused-but-set-parameter -Wno-error=unused-but-set-parameter -Wsuggest-override -Wsuggest-final-methods -O2 -fPIC -m64 -std=gnu++17 -o CMakeFiles/KBP.dir/main.cpp.o -c /home/kbmrx/.kbp/hyundaipricer/kbp/main.cpp
+[  3%] Building CXX object kbp/CMakeFiles/KBP.dir/__/core/cli/cdll.cpp.o
+[  6%] Building CXX object kbp/CMakeFiles/KBP.dir/__/core/cli/qmr/cliquet.cpp.o
+cd /home/kbmrx/.kbp/hyundaipricer/out-linux/kbp && /opt/rh/devtoolset-8/root/usr/bin/c++ -DADD_ENGINE_TO_KBP -DBOOST_BIND_GLOBAL_PLACEHOLDERS -DBOOST_MATH_DISABLE_FLOAT128 -DFMT_LOCALE -DPRICER_VERSION=\"2022-08-27-1.2.9-065e7e9\" -DRAPIDJSON_HAS_STDSTRING -DUSE_MODERN_PRICING -I/home/kbmrx/.kbp/hyundaipricer -I/home/kbmrx/.kbp/hyundaipricer/core -I/home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/share/rapidjson/../../include -isystem /home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/include -O3 -DNDEBUG -fpermissive -Wall -Wextra -pedantic -pedantic-errors -Werror -Wno-error=unused-parameter -Wno-unused-parameter -Wno-unused-but-set-parameter -Wno-error=unused-but-set-parameter -Wsuggest-override -Wsuggest-final-methods -O2 -fPIC -m64 -std=gnu++17 -o CMakeFiles/KBP.dir/__/core/cli/cdll.cpp.o -c /home/kbmrx/.kbp/hyundaipricer/core/cli/cdll.cpp
+cd /home/kbmrx/.kbp/hyundaipricer/out-linux/kbp && /opt/rh/devtoolset-8/root/usr/bin/c++ -DADD_ENGINE_TO_KBP -DBOOST_BIND_GLOBAL_PLACEHOLDERS -DBOOST_MATH_DISABLE_FLOAT128 -DFMT_LOCALE -DPRICER_VERSION=\"2022-08-27-1.2.9-065e7e9\" -DRAPIDJSON_HAS_STDSTRING -DUSE_MODERN_PRICING -I/home/kbmrx/.kbp/hyundaipricer -I/home/kbmrx/.kbp/hyundaipricer/core -I/home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/share/rapidjson/../../include -isystem /home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/include -O3 -DNDEBUG -fpermissive -Wall -Wextra -pedantic -pedantic-errors -Werror -Wno-error=unused-parameter -Wno-unused-parameter -Wno-unused-but-set-parameter -Wno-error=unused-but-set-parameter -Wsuggest-override -Wsuggest-final-methods -O2 -fPIC -m64 -std=gnu++17 -o CMakeFiles/KBP.dir/__/core/cli/qmr/cliquet.cpp.o -c /home/kbmrx/.kbp/hyundaipricer/core/cli/qmr/cliquet.cpp
+[  9%] Building CXX object kbp/CMakeFiles/KBP.dir/__/core/cli/qmr/localvol_ah_eq.cpp.o
+cd /home/kbmrx/.kbp/hyundaipricer/out-linux/kbp && /opt/rh/devtoolset-8/root/usr/bin/c++ -DADD_ENGINE_TO_KBP -DBOOST_BIND_GLOBAL_PLACEHOLDERS -DBOOST_MATH_DISABLE_FLOAT128 -DFMT_LOCALE -DPRICER_VERSION=\"2022-08-27-1.2.9-065e7e9\" -DRAPIDJSON_HAS_STDSTRING -DUSE_MODERN_PRICING -I/home/kbmrx/.kbp/hyundaipricer -I/home/kbmrx/.kbp/hyundaipricer/core -I/home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/share/rapidjson/../../include -isystem /home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/include -O3 -DNDEBUG -fpermissive -Wall -Wextra -pedantic -pedantic-errors -Werror -Wno-error=unused-parameter -Wno-unused-parameter -Wno-unused-but-set-parameter -Wno-error=unused-but-set-parameter -Wsuggest-override -Wsuggest-final-methods -O2 -fPIC -m64 -std=gnu++17 -o CMakeFiles/KBP.dir/__/core/cli/qmr/localvol_ah_eq.cpp.o -c /home/kbmrx/.kbp/hyundaipricer/core/cli/qmr/localvol_ah_eq.cpp
+[ 12%] Building CXX object kbp/CMakeFiles/KBP.dir/__/core/cli/qmr/stepdown.cpp.o
+cd /home/kbmrx/.kbp/hyundaipricer/out-linux/kbp && /opt/rh/devtoolset-8/root/usr/bin/c++ -DADD_ENGINE_TO_KBP -DBOOST_BIND_GLOBAL_PLACEHOLDERS -DBOOST_MATH_DISABLE_FLOAT128 -DFMT_LOCALE -DPRICER_VERSION=\"2022-08-27-1.2.9-065e7e9\" -DRAPIDJSON_HAS_STDSTRING -DUSE_MODERN_PRICING -I/home/kbmrx/.kbp/hyundaipricer -I/home/kbmrx/.kbp/hyundaipricer/core -I/home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/share/rapidjson/../../include -isystem /home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/include -O3 -DNDEBUG -fpermissive -Wall -Wextra -pedantic -pedantic-errors -Werror -Wno-error=unused-parameter -Wno-unused-parameter -Wno-unused-but-set-parameter -Wno-error=unused-but-set-parameter -Wsuggest-override -Wsuggest-final-methods -O2 -fPIC -m64 -std=gnu++17 -o CMakeFiles/KBP.dir/__/core/cli/qmr/stepdown.cpp.o -c /home/kbmrx/.kbp/hyundaipricer/core/cli/qmr/stepdown.cpp
+[ 15%] Building CXX object kbp/CMakeFiles/KBP.dir/__/core/cli/qmr/stepdown_superlizard.cpp.o
+cd /home/kbmrx/.kbp/hyundaipricer/out-linux/kbp && /opt/rh/devtoolset-8/root/usr/bin/c++ -DADD_ENGINE_TO_KBP -DBOOST_BIND_GLOBAL_PLACEHOLDERS -DBOOST_MATH_DISABLE_FLOAT128 -DFMT_LOCALE -DPRICER_VERSION=\"2022-08-27-1.2.9-065e7e9\" -DRAPIDJSON_HAS_STDSTRING -DUSE_MODERN_PRICING -I/home/kbmrx/.kbp/hyundaipricer -I/home/kbmrx/.kbp/hyundaipricer/core -I/home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/share/rapidjson/../../include -isystem /home/kbmrx/.kbp/hyundaipricer/vcpkg/installed/x64-linux/include -O3 -DNDEBUG -fpermissive -Wall -Wextra -pedantic -pedantic-errors -Werror -Wno-error=unused-parameter -Wno-unused-parameter -Wno-unused-but-set-parameter -Wno-error=unused-but-set-parameter -Wsuggest-override -Wsuggest-final-methods -O2 -fPIC -m64 -std=gnu++17 -o CMakeFiles/KBP.dir/__/core/cli/qmr/stepdown_superlizard.cpp.o -c /home/kbmrx/.kbp/hyundaipricer/core/cli/qmr/stepdown_superlizard.cpp
+[ 18%] Linking CXX executable ../../bin/KBP
+cd /home/kbmrx/.kbp/hyundaipricer/out-linux/kbp && /home/kbmrx/.kbp/hyundaipricer/vcpkg/downloads/tools/cmake-3.18.4-linux/cmake-3.18.4-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/KBP.dir/link.txt --verbose=1
+/opt/rh/devtoolset-8/root/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/KBP.dir/main.cpp.o CMakeFiles/KBP.dir/__/core/calibration/implied_repo.cpp.o CMakeFiles/KBP.dir/__/core/cli/cdll.cpp.o CMakeFiles/KBP.dir/__/core/cli/qmr/cliquet.cpp.o CMakeFiles/KBP.dir/__/core/cli/qmr/frn.cpp.o CMakeFiles/KBP.dir/__/core/cli/qmr/localvol_ah_eq.cpp.o CMakeFiles/KBP.dir/__/core/cli/qmr/mx_dividend_cont.cpp.o CMakeFiles/KBP.dir/__/core/cli/qmr/qmr_moving_average_cliquet.cpp.o CMakeFiles/KBP.dir/__/core/cli/qmr/stepdown.cpp.o CMakeFiles/KBP.dir/__/core/cli/qmr/stepdown_superlizard.cpp.o CMakeFiles/KBP.dir/__/core/fx/ed_pricing.cpp.o CMakeFiles/KBP.dir/__/core/fx/fx_forward.cpp.o CMakeFiles/KBP.dir/__/core/fx/fx_futures.cpp.o CMakeFiles/KBP.dir/__/core/option/asian.cpp.o CMakeFiles/KBP.dir/__/core/pricing/model/autocallable.cpp.o CMakeFiles/KBP.dir/__/core/pricing/model/equity_return_swap.cpp.o CMakeFiles/KBP.dir/__/core/time/date.cpp.o CMakeFiles/KBP.dir/__/core/time/period.cpp.o CMakeFiles/KBP.dir/__/Engine/FICClib/TQ_finance.cpp.o CMakeFiles/KBP.dir/__/Engine/FICClib/TQ_math.cpp.o CMakeFiles/KBP.dir/__/Engine/FRN/CalcLib_Curves.cpp.o CMakeFiles/KBP.dir/__/Engine/FRN/CalcUnit_FRN.cpp.o CMakeFiles/KBP.dir/__/Engine/FRN/Method_Date.cpp.o CMakeFiles/KBP.dir/__/Engine/FRN/Method_DayCount.cpp.o CMakeFiles/KBP.dir/__/Engine/common/BlackScholes.cpp.o CMakeFiles/KBP.dir/__/Engine/common/Pricing_Common.cpp.o CMakeFiles/KBP.dir/__/Engine/common/Pricing_Interpolation.cpp.o CMakeFiles/KBP.dir/__/Engine/common/Pricing_Random.cpp.o CMakeFiles/KBP.dir/__/Engine/marketparams/LocalVol.cpp.o CMakeFiles/KBP.dir/__/Engine/marketparams/Pricing_IRC.cpp.o CMakeFiles/KBP.dir/__/Engine/marketparams/Pricing_Volatility.cpp.o CMakeFiles/KBP.dir/__/Engine/pricing/Pricing_Autocallable.cpp.o CMakeFiles/KBP.dir/__/Engine/pricing/Pricing_Autocallable_rr.cpp.o CMakeFiles/KBP.dir/__/Engine/pricing/Pricing_Autocallable_rr_avg.cpp.o CMakeFiles/KBP.dir/__/Engine/pricing/Pricing_Autocallable_rrl.cpp.o CMakeFiles/KBP.dir/__/Engine/pricing/Pricing_Classic.cpp.o CMakeFiles/KBP.dir/__/Engine/pricing/Pricing_Inline.cpp.o CMakeFiles/KBP.dir/__/Engine/pricing/Pricing_Vanilla.cpp.o -o ../../bin/KBP  ../../vcpkg/installed/x64-linux/lib/libboost_program_options.a ../../vcpkg/installed/x64-linux/lib/libfmt.a -lstdc++fs 
+gmake[3]: 디렉터리 '/home/kbmrx/.kbp/hyundaipricer/out-linux' 나감
+[100%] Built target KBP
+gmake[2]: 디렉터리 '/home/kbmrx/.kbp/hyundaipricer/out-linux' 나감
+/home/kbmrx/.kbp/hyundaipricer/vcpkg/downloads/tools/cmake-3.18.4-linux/cmake-3.18.4-Linux-x86_64/bin/cmake -E cmake_progress_start /home/kbmrx/.kbp/hyundaipricer/out-linux/CMakeFiles 0
+Could not read from count file.
+gmake[1]: 디렉터리 '/home/kbmrx/.kbp/hyundaipricer/out-linux' 나감
+
+real	0m29.729s
+user	1m9.985s
+sys	0m3.978s
+~/.kbp/hyundaipricer
